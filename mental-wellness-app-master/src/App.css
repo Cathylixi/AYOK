@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 60px; /* Add margin to account for fixed navbar */
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.main-content p {
+  color: #666;
+  font-size: 1.1rem;
+} 
